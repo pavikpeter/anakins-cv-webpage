@@ -1,0 +1,124 @@
+body {
+    width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+
+header{
+    width: 1275px;
+    height:402px;
+    background-image: url("anakin.png");
+    background-size: cover;
+  }
+  footer{
+    width: 1275px;
+    height:402px;
+    background-image: url("imperial_destroyer.jpg");
+    background-size: cover;
+  }
+  blockquote{
+    width: 85%;
+    height:150px;
+    background:#222; 
+    font-family: 'Abril Fatface', cursive;
+    font-size:60px;
+    color:white;
+    margin: 48px 0px 0px 0px;
+
+  }
+  
+  blockquote::before{
+    content: "\201c";
+    font-size: 150px;
+    position: relative;
+    top:-45px;
+    left:0px;
+  }
+
+.block_container{
+    width: 1275px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.name{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    position: relative;
+    left:250px;
+    top:100px;
+}
+.quote_text{
+    position: relative;
+    top: -60px;
+}
+
+.text{
+    width: 60%;
+    justify-content: center;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size:24px
+  }
+  
+.float {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111111;
+  }
+  
+
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+h4{
+    font-family: 'Merriweather', serif;
+    margin-top: 0px;
+
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+ul{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px; 
+    list-style-type: square;  
+}
+hr{
+    height: 5px;
+    width: 80%;
+    background: #222;
+
+}
+  /*header and qoutes: ‘Abril Fatface’ font, #222 grey
+        font-family: 'Abril Fatface', cursive;
+    paragrpahs: ‘Josefin Sans’ font, #222 grey
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Merriweather', serif;
+  */
